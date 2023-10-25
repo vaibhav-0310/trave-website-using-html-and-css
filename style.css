@@ -1,0 +1,188 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: customFonts;
+    src: url("drip-october-font/DripOctober-vm0JA.ttf");
+    color: aliceblue;
+}
+.taskbar{
+    height: 50px;
+    width: 99.8%;
+    font-weight: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+    background-color: transparent;
+    padding-top: 20px;
+}
+.t5{
+    border: 1px solid white;
+    border-radius: 28%;
+    width:6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+.t2{
+    border: 1px solid white;
+    border-radius: 28%;
+    width:9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#t{
+    border: 1px solid white;
+    width:5%;
+    border-radius: 30%;
+}
+.container{
+    height:700px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img{
+    padding-left: 120px;
+    height:600px;
+    width:100%;
+    position: relative;
+}
+.book{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    height:100px;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+   background-color: transparent;
+   animation: text 5s linear 1 normal;
+}
+@keyframes text{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+a{
+    text-decoration: none;
+}
+#c1{
+      font-size: 2.5rem;
+      text-align: center;
+}
+.c2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.container3{
+    display: grid;
+    height: 500px;
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 120px;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 30px;
+}
+#c31{
+    background-image: url("https://images.unsplash.com/photo-1677396098159-68dcf50bfe3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmlzaGVzJTIwaW4lMjB3YXRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover ;
+}
+#c32{
+    background-image: url("https://images.unsplash.com/photo-1682686580922-2e594f8bdaa7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MTV8fGRlc2VydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    
+}
+#c33{
+    background-image: url("https://images.unsplash.com/photo-1603483080228-04f2313d9f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdpbGRsaWZlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+}
+.cl1{
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    animation: rotate 5s linear  1 normal;
+}
+pre{
+    background-color: transparent;
+    font-size: 2rem;
+}
+.cs{
+    background-color: transparent;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#c31:hover{
+    background-color: aliceblue;
+    background-image: none;
+}
+#c32:hover{
+    background-color: aliceblue;
+    background-image: none;
+}
+#c33:hover{
+    background-color: aliceblue;
+    background-image: none;
+}
+@keyframes rotate {
+  from {transform: scale(0);}
+     to{transform: scale(1);}
+}
+.container4{
+    height:500px;
+    width:95%;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("https://images.unsplash.com/photo-1617456307955-a86ef5cca7f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnNlcyUyMHJ1bm5pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=600");
+    background-size: cover;
+}
+button{
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height:30px;
+    width:90px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color:rgb(48, 121, 82);
+}
+.cc4{
+    position: relative;
+    top:75%;
+    padding-left: 390px;
+}
+.foot{
+    height: 380px;
+    width:98%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(23, 22, 22);
+    padding: 10px;
+}
+.f1{
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+.f2{
+    font-size: 1rem;
+    padding-bottom: 2px;
+}
+.exfoot{
+    height:120px;
+    width:98%;
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.e{
+    margin-top: 30px;
+}
